@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Portfolio_styles.css" />
+    <title>PeenakaWedamulla.com</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="Portfolio_main.html">PEENAKA</a></div>
+                <label for="check" class="checkbox">
+                    <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check" />
+                <ul>
+                    <li><a href="Portfolio_main.html">Home</a></li>
+                    <li><a href="Portfolio_about.html">About</a></li>
+                    <li><a href="./Portfolio_projects.html">Project</a></li>
+                    <li><a href="Portfolio_blog.html">Blog</a></li>
+                    <li><a href="Portfolio_contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class ="blogPage_sub_1">
+        <section class="blog-content">
+            <p>Mobile automation has become a critical aspect of software development, ensuring that apps function seamlessly
+                across various devices and operating systems. Among the many tools available for mobile automation,
+                <strong>Appium</strong> stands out as a versatile, open-source framework that allows testers to automate native,
+                hybrid, and mobile web applications for both iOS and Android platforms.</p>
+        
+            <h2>Why Appium?</h2>
+            <p>Appium’s key strength lies in its flexibility and platform independence. Unlike other automation tools that may
+                require specialized languages or frameworks, Appium allows testers to write automation scripts in several
+                programming languages such as <strong>Java, JavaScript, TypeScript, Ruby, Python,</strong> and more. This broad
+                language support means it integrates easily with existing development environments, reducing the learning curve
+                for automation engineers.</p>
+            <p>Another advantage is that Appium leverages <strong>standard automation APIs</strong> on mobile platforms. For
+                example, on iOS, it uses <strong>XCUITest</strong>, and for Android, it uses <strong>UIAutomator2</strong>. This
+                ensures that Appium automates the app exactly like a real user would, enhancing test reliability.</p>
+        
+            <h2>How Appium Simplifies Mobile Testing</h2>
+            <ul>
+                <li><strong>Cross-Platform Testing:</strong> Appium allows you to run a single test script across both iOS and
+                    Android, drastically reducing the time required to cover multiple devices.</li>
+                <li><strong>Real Device Testing:</strong> One of the challenges in mobile automation is ensuring that tests run
+                    smoothly on real devices. Appium supports both emulators and real devices, making it perfect for ensuring
+                    that apps perform well in real-world conditions.</li>
+                <li><strong>CI/CD Integration:</strong> With tools like Jenkins, GitLab, or CircleCI, you can integrate Appium
+                    into your CI/CD pipeline, enabling automatic testing as part of your software delivery process.</li>
+                <li><strong>Script Reusability:</strong> Appium’s ability to support multiple platforms means your automation
+                    scripts can be reused across different versions of an app, saving effort and reducing maintenance overhead.
+                </li>
+            </ul>
+        
+            <h2>Best Practices for Appium Automation</h2>
+            <ul>
+                <li><strong>Choose the Right Locator Strategy:</strong> Use stable locators like accessibility IDs instead of
+                    unreliable ones like XPath, especially for Android and iOS.</li>
+                <li><strong>Real Device Configuration:</strong> Ensure that your test scripts are configured for real devices,
+                    especially for iOS where Appium requires specific settings using XCUITest.</li>
+                <li><strong>Optimize Test Execution:</strong> Divide your test cases into logical units that can run in parallel
+                    to minimize test runtime and improve efficiency.</li>
+            </ul>
+        
+            <h2>My Experience with Appium</h2>
+            <p>As a QA Engineer specializing in automation, I’ve had the opportunity to implement Appium in various projects,
+                ranging from mobile apps for financial services to large-scale e-commerce platforms. My work involves writing
+                scripts for both Android and iOS devices and integrating the tests into CI/CD pipelines for continuous testing
+                and faster feedback loops. Additionally, I have extensive experience configuring Appium for real device testing,
+                particularly on iOS using Appium’s XCUI test driver.</p>
+            <p>By leveraging Appium, I help ensure the highest levels of app quality, reduce manual testing efforts, and deliver
+                faster, more reliable results for every release.</p>
+        </section>
+    </main>
+</body>
+<footer>
+    <p>Copyright &#169; 2024 Peenaka. All Rights Reserved.</p>
+</footer>
+</html>
